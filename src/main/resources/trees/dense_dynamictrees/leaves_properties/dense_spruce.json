@@ -1,0 +1,6 @@
+{
+  "family": "dense_dynamictrees:dense_spruce",
+  "primitive_leaves": "minecraft:spruce_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 5
+}

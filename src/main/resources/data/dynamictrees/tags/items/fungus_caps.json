@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "dynamictrees:dense_crimson_seed", "required": false },
+    { "id": "dynamictrees:dense_warped_seed", "required": false }
+  ]
+}

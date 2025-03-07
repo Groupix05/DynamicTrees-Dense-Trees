@@ -1,0 +1,43 @@
+{
+    "family": "dense_dynamictrees:dense_acacia",
+    "leaves_properties": "dense_dynamictrees:dense_acacia",
+    "always_show_on_waila": true,
+    "growth_rate": 0.7,
+    "lowest_branch_height": 3,
+    "max_branch_radius": 24,
+    "signal_energy": 14.0,
+    "tapering": 0.3,
+    "up_probability": 0,
+    "environment_factors" : {
+        "#forge:is_cold": 0.25,
+        "#forge:is_wet": 0.75,
+        "#is_nether": 0.75
+    },
+    "perfect_biomes": { "tag": "#minecraft:is_savanna" },
+    "features" : [
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

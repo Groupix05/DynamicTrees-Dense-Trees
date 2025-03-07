@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "dynamictrees:voluntary_seed_drop_chance",
+              "rarity": 1.0
+            }
+          ],
+          "name": "dynamictrees:azalea_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "dynamictrees:voluntary_seed_drop_chance",
+              "rarity": 0.1
+            }
+          ],
+          "name": "dense_dynamictrees:dense_azalea_seed"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dense_dynamictrees:trees/voluntary/dense_azalea"
+}

@@ -1,0 +1,9 @@
+{
+    "type": "nether_fungus",
+    "primitive_log": "densetrees:dense_crimson_stem",
+    "common_leaves": "dense_dynamictrees:dense_crimson",
+    "common_species": "dense_dynamictrees:dense_crimson",
+    "generate_stripped_branch": false,
+    "generate_surface_root": true,
+    "max_branch_radius": 24
+}

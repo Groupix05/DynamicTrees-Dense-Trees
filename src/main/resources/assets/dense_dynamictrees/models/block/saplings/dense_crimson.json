@@ -1,0 +1,10 @@
+{
+  "parent": "dense_dynamictrees:block/smartmodel/dense_mushroom_round",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "cap": "dense_dynamictrees:block/dense_crimson_cap",
+    "cap_bottom": "dense_dynamictrees:block/dense_crimson_cap_bottom",
+    "cap_side": "dense_dynamictrees:block/dense_crimson_cap_side",
+    "stem": "dense_dynamictrees:block/dense_crimson_cap_side"
+  }
+}

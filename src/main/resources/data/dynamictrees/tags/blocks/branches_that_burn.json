@@ -1,0 +1,12 @@
+{
+  "values": [
+    { "id": "dense_dynamictrees:dense_acacia_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_birch_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_cherry_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_dark_oak_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_jungle_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_mangrove_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_oak_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_spruce_branch", "required": false }
+  ]
+}

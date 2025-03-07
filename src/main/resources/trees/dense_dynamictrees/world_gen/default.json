@@ -1,0 +1,313 @@
+[
+  {
+    "_comment": "Default for a forest, which generates a birch tree 1/5 of the time.",
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#minecraft:is_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_oak": 1,
+          "dense_dynamictrees:dense_birch": 1,
+          "...": 98
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Generates an alternative oak style in swamps.",
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#forge:is_swamp"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_swamp_oak": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Mangrove swamp has mangroves, duh.",
+    "select": {
+      "name": "minecraft:mangrove_swamp"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_mangrove": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#minecraft:is_savanna"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_acacia": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Windswept Forests are denser and spawn more trees.",
+    "select": "minecraft:windswept_forest",
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_oak": 1,
+          "dense_dynamictrees:dense_spruce": 1,
+          "...": 98
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:cherry_grove"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_cherry": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#minecraft:is_jungle"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_cocoa": 1,
+          "dense_dynamictrees:dense_jungle": 4,
+          "dense_dynamictrees:dense_mega_cocoa": 1,
+          "dense_dynamictrees:dense_mega_jungle": 2,
+          "...": 92
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:sparse_jungle"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_cocoa": 1,
+          "dense_dynamictrees:dense_jungle": 5,
+          "...": 94
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#forge:is_coniferous"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_spruce": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Roofed forests are handled specially. Multipass tries to close the canopy as much as possible.",
+    "select": {
+      "name": "minecraft:dark_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_dark_oak": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Birch forest is 100% birch.",
+    "select": {
+      "name": "minecraft:birch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_birch": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Old growth birch forest has tall birch trees.",
+    "select": {
+      "name": "minecraft:old_growth_birch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_tall_birch": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "1/25 chance to spawn apple trees in plains biomes.",
+    "select": {
+      "name": "minecraft:.*",
+      "tag": "#forge:is_plains"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_oak": 5,
+          "dense_dynamictrees:dense_apple_oak": 1,
+          "...": 94
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Spawn spruce trees in snowy plains, and with slightly higher chance.",
+    "select": {
+      "name": "minecraft:snowy_plains"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_spruce": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "_comment": "All meadow biomes rarely generate an oak or tall birch tree.",
+    "select": {
+      "name": "minecraft:meadow"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_oak": 1,
+          "dense_dynamictrees:dense_tall_birch": 1,
+          "...": 98
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Generate azaleas above lush caves.",
+    "_note": "Application of cave rooted trees requires the selector NOT to use tag filters and it CANNOT be used in dimensional databases.",
+    "select": {
+      "name": "minecraft:lush_caves"
+    },
+    "apply": {
+      "cave_rooted": {
+        "species": {
+          "method": "splice_before",
+          "random": {
+            "dense_dynamictrees:dense_azalea": 1,
+            "...": 99
+          }
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Old growth pine and spruce taigas have a 1/3 chance to generate a mega spruce.",
+    "select": {
+      "name": "minecraft:old_growth_(pine|spruce)_taiga"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_spruce": 1,
+          "dense_dynamictrees:dense_mega_spruce": 1,
+          "...": 98
+        }
+      }
+    }
+  },
+  {
+    "_comment": "Wooded badlands have a chance of generating oak on the dirt patches.",
+    "select": {
+      "name": "minecraft:wooded_badlands"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_oak": 1,
+          "...": 99
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:crimson_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_crimson": 4,
+          "dense_dynamictrees:dense_mega_crimson": 1,
+          "...": 95
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:warped_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dense_dynamictrees:dense_warped": 4,
+          "dense_dynamictrees:dense_mega_warped": 1,
+          "...": 95
+        }
+      }
+    }
+  }
+]

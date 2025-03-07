@@ -1,0 +1,6 @@
+{
+  "family": "dense_dynamictrees:dense_acacia",
+  "primitive_leaves": "minecraft:acacia_leaves",
+  "cell_kit": "dynamictrees:acacia",
+  "smother": 3
+}

@@ -1,0 +1,75 @@
+{
+    "family": "dense_dynamictrees:dense_jungle",
+    "mega_species": "dense_dynamictrees:dense_mega_cocoa",
+    "leaves_properties": "dense_dynamictrees:dense_cocoa",
+    "growth_logic_kit": "jungle",
+    "pods": [ "dense_dynamictrees:dense_cocoa" ],
+    "always_show_on_waila": true,
+    "drop_seeds": false,
+    "generate_sapling": true,
+    "generate_seed": true,
+    "growth_rate": 1.5,
+    "lowest_branch_height": 2,
+    "max_branch_radius": 24,
+    "signal_energy": 10,
+    "soil_longevity": 18,
+    "tapering": 0.7,
+    "up_probability": 1,
+    "environment_factors" : {
+        "#forge:is_cold": 0.3,
+        "#forge:is_dry": 0.4,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "tag": "#minecraft:is_jungle" },
+    "features" : [
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 10
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "pod",
+            "properties": {
+                "pod": "dense_dynamictrees:dense_cocoa",
+                "blocks_per_pod": 8,
+                "fruiting_radius": 4,
+                "lowest_trunk_height": 2,
+				"place_chance": 0.25
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "undergrowth",
+            "properties": {
+                "undergrowth_species": "dynamictrees:oak_undergrowth",
+                "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
+            }
+        },
+        {
+            "name": "vines",
+            "properties": {
+                "quantity": 16,
+                "max_length": 16
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

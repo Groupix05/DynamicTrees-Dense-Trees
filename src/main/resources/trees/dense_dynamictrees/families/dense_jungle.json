@@ -1,0 +1,9 @@
+{
+    "primitive_log": "densetrees:dense_jungle_log",
+    "common_leaves": "dense_dynamictrees:dense_jungle",
+    "common_species": "dense_dynamictrees:dense_jungle",
+    "generate_stripped_branch": false,
+    "generate_surface_root": true,
+    "max_branch_radius": 24,
+    "max_signal_depth": 64
+}

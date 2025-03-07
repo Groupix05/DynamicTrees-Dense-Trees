@@ -1,0 +1,8 @@
+{
+    "primitive_log": "densetrees:dense_oak_log",
+    "common_leaves": "dense_dynamictrees:dense_oak",
+    "common_species": "dense_dynamictrees:dense_oak",
+    "generate_stripped_branch": false,
+    "generate_surface_root": true,
+    "max_branch_radius": 24
+}

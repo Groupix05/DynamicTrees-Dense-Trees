@@ -1,0 +1,60 @@
+{
+    "family": "dense_dynamictrees:dense_dark_oak",
+    "leaves_properties": "dense_dynamictrees:dense_dark_oak",
+    "growth_logic_kit": "dark_oak",
+    "always_show_on_waila": true,
+    "growth_rate": 0.8,
+    "lowest_branch_height": 7,
+    "max_branch_radius": 23,
+    "signal_energy": 22,
+    "soil_longevity": 16,
+    "tapering": 0.75,
+    "up_probability": 3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.75,
+        "#forge:is_dry": 0.25,
+        "#forge:is_hot": 0.5,
+        "mushroom": 1.25
+    },
+    "perfect_biomes": { "tag": "#forge:is_spooky", "name": "minecraft:.*" },
+    "features" : [
+        "bee_nest",
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 6
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "mushroom_rot",
+            "properties": {
+                "_comment": "An alternate mushroom chance of -1 means that a red mushroom will always be generated.",
+                "alternate_mushroom_chance": -1
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "rot_soil",
+            "properties": {
+                "rotten_soil": "podzol"
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

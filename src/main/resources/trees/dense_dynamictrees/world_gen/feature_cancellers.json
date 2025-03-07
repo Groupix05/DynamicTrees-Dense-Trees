@@ -1,0 +1,25 @@
+[
+  {
+    "__comment": "Cancel standard tree features from the overworld.",
+    "select": { "name": "minecraft:.*", "tag": "#minecraft:is_overworld" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "densetrees"
+    }
+  },
+  {
+    "select": { "name": "minecraft:.*", "tag": "#forge:is_lush" },
+    "cancellers": {
+      "type": "rooted_tree",
+      "namespace": "densetrees"
+    }
+  },
+  {
+    "__comment": "Cancel huge fungus features from namespace 'minecraft' in the nether forests.",
+    "select": { "name": "minecraft:.*forest", "tag": "#minecraft:is_nether" },
+    "cancellers": {
+      "type": "fungus",
+      "namespace": "densetrees"
+    }
+  }
+]

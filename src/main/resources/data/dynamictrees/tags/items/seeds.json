@@ -1,0 +1,15 @@
+{
+  "values": [
+    { "id": "dynamictrees:dense_acacia_seed", "required": false },
+    { "id": "dynamictrees:dense_apple_oak_seed", "required": false },
+    { "id": "dynamictrees:dense_azalea_seed", "required": false },
+    { "id": "dynamictrees:dense_birch_seed", "required": false },
+    { "id": "dynamictrees:dense_cherry_seed", "required": false },
+    { "id": "dynamictrees:dense_cocoa_seed", "required": false },
+    { "id": "dynamictrees:dense_dark_oak_seed", "required": false },
+    { "id": "dynamictrees:dense_jungle_seed", "required": false },
+    { "id": "dynamictrees:dense_mangrove_seed", "required": false },
+    { "id": "dynamictrees:dense_oak_seed", "required": false },
+    { "id": "dynamictrees:dense_spruce_seed", "required": false }
+  ]
+}

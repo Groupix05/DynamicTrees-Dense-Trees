@@ -1,0 +1,53 @@
+{
+    "family": "dense_dynamictrees:dense_birch",
+    "leaves_properties": "dense_dynamictrees:dense_birch",
+    "always_show_on_waila": true,
+    "growth_rate": 1.25,
+    "lowest_branch_height": 5,
+    "max_branch_radius": 24,
+    "signal_energy": 15,
+    "tapering": 0.25,
+    "up_probability": 5,
+    "environment_factors" : {
+        "#forge:is_cold": 0.75,
+        "#forge:is_dry": 0.5,
+        "#forge:is_hot": 0.5,
+        "#is_forest": 1.05
+    },
+    "perfect_biomes": { "name": "minecraft:.*birch.*" },
+    "features" : [
+        "bee_nest",
+        "bottom_flare",
+        "rot_soil",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "mushroom_rot",
+            "properties": {
+                "_comment": "An alternate mushroom chance of 2 means that a brown mushroom will always be generated.",
+                "alternate_mushroom_chance": 2
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

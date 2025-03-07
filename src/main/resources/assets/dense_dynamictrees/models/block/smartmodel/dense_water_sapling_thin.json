@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"root": "dynamictrees:block/sapling_water_roots",
+		"particle": "#leaves"
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [4, 4, 4],
+			"to": [12, 15, 12],
+			"faces": {
+				"north": {"uv": [4, 2, 12, 13], "texture": "#leaves", "tintindex": 0},
+				"east": {"uv": [4, 2, 12, 13], "texture": "#leaves", "tintindex": 0},
+				"south": {"uv": [4, 2, 12, 13], "texture": "#leaves", "tintindex": 0},
+				"west": {"uv": [4, 2, 12, 13], "texture": "#leaves", "tintindex": 0},
+				"up": {"uv": [4, 5, 12, 13], "texture": "#leaves", "tintindex": 0},
+				"down": {"uv": [4, 5, 12, 13], "texture": "#leaves", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Trunk",
+			"from": [6.5, -2, 6.5],
+			"to": [9.5, 10, 9.5],
+			"faces": {
+				"north": {"uv": [6, 0, 9, 12], "texture": "#log"},
+				"east": {"uv": [6, 0, 9, 12], "texture": "#log"},
+				"south": {"uv": [6, 0, 9, 12], "texture": "#log"},
+				"west": {"uv": [6, 0, 9, 12], "texture": "#log"},
+				"up": {"uv": [6, 7, 9, 10], "texture": "#log"},
+				"down": {"uv": [6, 7, 9, 10], "texture": "#log", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0.8, -16, 8],
+			"to": [15.2, 0, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#root", "tintindex": 1},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#root", "tintindex": 1}
+			}
+		},
+		{
+			"from": [8, -16, 0.8],
+			"to": [8, 0, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#root", "tintindex": 1},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#root", "tintindex": 1}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

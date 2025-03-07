@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "layer=covered": {
+      "model": "minecraft:block/mud"
+    },
+    "layer=exposed": {
+      "model": "dense_dynamictrees:block/dense_mangrove_roots"
+    },
+    "layer=filled": {
+      "model": "dense_dynamictrees:block/dense_mangrove_roots_filled"
+    }
+  }
+}

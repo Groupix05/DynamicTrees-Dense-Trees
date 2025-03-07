@@ -1,0 +1,66 @@
+{
+    "family": "dense_dynamictrees:dense_oak",
+    "leaves_properties": "dense_dynamictrees:dense_azalea",
+    "acceptable_soils": ["dirt_like"],
+    "world_gen_acceptable_soils": ["sand_like", "snow_like", "terracotta_like"],
+    "force_soil": "rooted_dirt",
+    "growth_logic_kit": "azalea",
+    "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
+    "growth_rate": 0.7,
+    "lowest_branch_height": 1,
+    "max_branch_radius": 24,
+    "signal_energy": 8.0,
+    "soil_longevity": 25,
+    "tapering": 0.8,
+    "up_probability": 2,
+    "environment_factors" : {
+        "#forge:is_hot": 0.5,
+        "#forge:is_wet": 0.75,
+        "sparse": 1.1
+    },
+    "perfect_biomes": { "name": "minecraft:lush_caves" },
+    "features" : [
+        "bee_nest",
+        "bottom_flare",
+        "mushroom_rot",
+        "root_system",
+        {
+            "name": "alt_leaves",
+            "properties": {
+                "alternative_leaves": "dense_dynamictrees:dense_flowering_azalea",
+                "place_chance": 0.35
+            }
+        },
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "rot_soil",
+            "properties": {
+                "rotten_soil": "podzol"
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

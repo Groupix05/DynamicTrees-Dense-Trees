@@ -1,0 +1,6 @@
+{
+  "type": "scruffy",
+  "family": "dense_dynamictrees:dense_mangrove",
+  "primitive_leaves": "minecraft:mangrove_leaves",
+  "smother": 6
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "dense_dynamictrees:block/smartmodel/dense_mushroom_flat",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "cap": "dense_dynamictrees:block/dense_warped_cap",
+    "cap_bottom": "dense_dynamictrees:block/dense_warped_cap_bottom",
+    "stem": "dense_dynamictrees:block/dense_warped_cap_bottom"
+  }
+}

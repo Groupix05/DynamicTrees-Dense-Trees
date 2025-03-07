@@ -1,0 +1,6 @@
+{
+  "family": "dense_dynamictrees:dense_jungle",
+  "primitive_leaves": "minecraft:jungle_leaves",
+  "light_requirement": 12,
+  "smother": 6
+}

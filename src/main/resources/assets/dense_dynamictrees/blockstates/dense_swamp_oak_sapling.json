@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dense_dynamictrees:block/saplings/dense_swamp_oak"
+    }
+  }
+}

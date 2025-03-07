@@ -1,0 +1,13 @@
+{
+    "type": "mangrove",
+    "primitive_log": "densetrees:dense_mangrove_log",
+    "primitive_root": "mangrove_roots",
+    "primitive_filled_root": "muddy_mangrove_roots",
+    "primitive_covered_root": "mud",
+    "common_leaves": "dense_dynamictrees:dense_mangrove",
+    "common_species": "dense_dynamictrees:dense_mangrove",
+    "default_soil": "dynamictrees:mangrove_aerial_roots",
+    "root_system_acceptable_soils": ["dirt_like", "mud_like", "sand_like"],
+    "generate_stripped_branch": false,
+    "max_branch_radius": 24
+}

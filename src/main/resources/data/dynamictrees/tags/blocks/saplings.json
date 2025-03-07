@@ -1,0 +1,15 @@
+{
+  "values": [
+    { "id": "dense_dynamictrees:dense_acacia_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_apple_oak_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_azalea_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_birch_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_cherry_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_cocoa_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_dark_oak_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_jungle_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_mangrove_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_oak_sapling", "required": false },
+    { "id": "dense_dynamictrees:dense_spruce_sapling", "required": false }
+  ]
+}

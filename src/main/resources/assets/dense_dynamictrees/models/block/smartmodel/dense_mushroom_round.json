@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#cap"
+	},
+	"elements": [
+		{
+			"name": "Cap",
+			"from": [4, 5, 4],
+			"to": [12, 10, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 2, -1]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 5], "texture": "#cap_side"},
+				"east": {"uv": [0, 5, 8, 10], "texture": "#cap_side"},
+				"south": {"uv": [0, 0, 8, 5], "texture": "#cap_side"},
+				"west": {"uv": [0, 5, 8, 10], "texture": "#cap_side"},
+				"up": {"uv": [1, 1, 9, 9], "texture": "#cap"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 3, 9.5],
+			"faces": {
+				"north": {"uv": [13, 13, 16, 16], "texture": "#stem"},
+				"east": {"uv": [13, 13, 16, 16], "texture": "#stem"},
+				"south": {"uv": [13, 13, 16, 16], "texture": "#stem"},
+				"west": {"uv": [13, 13, 16, 16], "texture": "#stem"},
+				"down": {"uv": [13, 13, 16, 16], "texture": "#stem", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Brim",
+			"from": [3, 3, 3],
+			"to": [13, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0, -2]},
+			"faces": {
+				"north": {"uv": [0, 11, 10, 13], "texture": "#cap_side"},
+				"east": {"uv": [0, 13, 10, 15], "texture": "#cap_side"},
+				"south": {"uv": [0, 11, 10, 13], "texture": "#cap_side"},
+				"west": {"uv": [0, 13, 10, 15], "texture": "#cap_side"},
+				"up": {"uv": [0, 0, 10, 10], "rotation": 90, "texture": "#cap"},
+				"down": {"uv": [0, 0, 10, 10], "rotation": 270, "texture": "#cap_bottom"}
+			}
+		}
+	]
+}

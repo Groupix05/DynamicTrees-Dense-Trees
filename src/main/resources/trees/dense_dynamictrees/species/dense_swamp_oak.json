@@ -1,0 +1,61 @@
+{
+    "type": "swamp_oak",
+    "family": "dense_dynamictrees:dense_oak",
+    "leaves_properties": "dense_dynamictrees:dense_oak",
+    "acceptable_soils": ["dirt_like", "water_like"],
+    "always_show_on_waila": true,
+    "generate_sapling": true,
+    "plantable_on_fluid": true,
+    "growth_rate": 0.8,
+    "max_branch_radius": 24,
+    "signal_energy": 14.0,
+    "tapering": 0.3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.5,
+        "#forge:is_dry": 0.5
+    },
+    "perfect_biomes": { "tag": "#forge:is_swamp" },
+    "common_override": { "name": "minecraft:swamp" },
+    "features" : [
+        "bottom_flare",
+        "mushroom_rot",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "rot_soil",
+            "properties": {
+                "rotten_soil": "podzol"
+            }
+        },
+        {
+            "name": "vines",
+            "properties": {
+                "max_length": 7,
+                "vertical_spread": 30,
+                "ray_distance": 6,
+                "quantity": 32
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_water_sapling"
+    }
+}

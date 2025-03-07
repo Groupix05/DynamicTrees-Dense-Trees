@@ -1,0 +1,64 @@
+{
+    "type": "nether_fungus",
+    "family": "dense_dynamictrees:dense_crimson",
+    "leaves_properties": "dense_dynamictrees:dense_crimson",
+    "acceptable_growth_blocks": ["crimson_nylium"],
+    "acceptable_soils": ["nether_soil_like", "fungus_like", "dirt_like"],
+    "growth_logic_kit": {
+        "name": "nether_fungus",
+        "properties": { "min_cap_height": 6 }
+    },
+    "always_show_on_waila": true,
+    "growth_rate": 0.9,
+    "lowest_branch_height": 10,
+    "max_branch_radius": 23,
+    "signal_energy": 42,
+    "soil_longevity": 12,
+    "tapering": 0.4,
+    "up_probability": 7,
+    "environment_factors" : {
+        "#forge:is_cold": 0.25,
+        "#forge:is_wet": 0.75
+    },
+    "perfect_biomes": { "name": "minecraft:crimson_forest" },
+    "features" : [
+        "bee_nest",
+        "shroomlight",
+        {
+            "name": "bottom_flare",
+            "properties": {
+                "min_radius": 8
+            }
+        },
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "vines",
+            "properties": {
+                "vine_type": "ceiling",
+                "block": "weeping_vines_plant",
+                "tip_block": "weeping_vines",
+                "max_length": 7,
+                "quantity": 10
+            }
+        }
+    ]
+}

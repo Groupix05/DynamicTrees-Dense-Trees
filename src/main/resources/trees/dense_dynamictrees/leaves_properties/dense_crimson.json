@@ -1,0 +1,11 @@
+{
+  "type": "wart",
+  "family": "dense_dynamictrees:dense_crimson",
+  "primitive_leaves": "minecraft:nether_wart_block",
+  "cell_kit": "dynamictrees:nether_fungus",
+  "material_color": "COLOR_RED",
+  "smother": 7,
+  "light_requirement": 0,
+  "fire_spread": 0,
+  "flammability": 0
+}

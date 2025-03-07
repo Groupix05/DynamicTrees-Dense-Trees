@@ -1,0 +1,60 @@
+{
+    "family": "dense_dynamictrees:dense_jungle",
+    "mega_species": "dense_dynamictrees:dense_mega_jungle",
+    "leaves_properties": "dense_dynamictrees:dense_jungle",
+    "growth_logic_kit": "jungle",
+    "always_show_on_waila": true,
+    "growth_rate": 1.0,
+    "lowest_branch_height": 4,
+    "max_branch_radius": 24,
+    "signal_energy": 34,
+    "tapering": 0.25,
+    "up_probability": 3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.15,
+        "#forge:is_dry": 0.2,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "tag": "#minecraft:is_jungle" },
+    "features" : [
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 10
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        },
+        {
+            "name": "undergrowth",
+            "properties": {
+                "undergrowth_species": "dynamictrees:oak_undergrowth",
+                "secondary_undergrowth_species": "dynamictrees:jungle_undergrowth"
+            }
+        },
+        {
+            "name": "vines",
+            "properties": {
+                "quantity": 16,
+                "max_length": 16
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

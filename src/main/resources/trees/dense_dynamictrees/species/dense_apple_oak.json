@@ -1,0 +1,54 @@
+{
+    "family": "dense_dynamictrees:dense_oak",
+    "leaves_properties": "dense_dynamictrees:dense_oak",
+    "fruits": [ "dense_dynamictrees:dense_apple" ],
+    "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
+    "growth_rate": 0.7,
+    "lowest_branch_height": 5,
+    "max_branch_radius": 24,
+    "signal_energy": 14,
+    "tapering": 0.5,
+    "up_probability": 1,
+    "environment_factors" : {
+        "#forge:is_cold": 0.75,
+        "#forge:is_dry": 0.25,
+        "#forge:is_hot": 0.75
+    },
+    "perfect_biomes": { "name": "minecraft:plains" },
+    "features" : [
+        "bee_nest",
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 5
+            }
+        },
+        {
+            "name": "fruit",
+            "properties": {
+                "fruit": "dense_dynamictrees:dense_apple",
+				"quantity": 8
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}

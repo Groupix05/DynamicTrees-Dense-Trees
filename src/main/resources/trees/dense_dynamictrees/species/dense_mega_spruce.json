@@ -1,0 +1,53 @@
+{
+    "family": "dense_dynamictrees:dense_spruce",
+    "leaves_properties": "dense_dynamictrees:dense_spruce",
+    "acceptable_soils": ["dirt_like"],
+    "world_gen_acceptable_soils": ["snow_like"],
+    "growth_logic_kit": {
+        "name": "conifer",
+        "properties": {
+            "energy_divisor": 5
+        }
+    },
+    "always_show_on_waila": true,
+    "growth_rate": 0.9,
+    "lowest_branch_height": 7,
+    "max_branch_radius": 24,
+    "signal_energy": 48.0,
+    "soil_longevity": 40,
+    "tapering": 0.25,
+    "up_probability": 6,
+    "environment_factors" : {
+        "#forge:is_dry": 0.25,
+        "#forge:is_hot": 0.50,
+        "#forge:is_wet": 0.75
+    },
+    "perfect_biomes": { "name": "minecraft:old_growth_(pine|spruce)_taiga" },
+    "common_override": { "name": "minecraft:old_growth_(pine|spruce)_taiga" },
+    "features" : [
+        "bottom_flare",
+        "clear_volume",
+        "conifer_topper",
+        "podzol",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 20
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 10
+            }
+        }
+    ]
+}

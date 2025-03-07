@@ -1,0 +1,50 @@
+{
+    "family": "dense_dynamictrees:dense_spruce",
+    "mega_species": "dense_dynamictrees:dense_mega_spruce",
+    "leaves_properties": "dense_dynamictrees:dense_spruce",
+    "acceptable_soils": ["dirt_like"],
+    "world_gen_acceptable_soils": ["snow_like"],
+    "growth_logic_kit": "conifer",
+    "always_show_on_waila": true,
+    "growth_rate": 0.9,
+    "lowest_branch_height": 6,
+    "max_branch_radius": 24,
+    "signal_energy": 32,
+    "soil_longevity": 20,
+    "tapering": 0.25,
+    "up_probability": 2,
+    "environment_factors" : {
+        "#forge:is_dry": 0.25,
+        "#forge:is_hot": 0.50,
+        "#forge:is_wet": 0.75
+    },
+    "perfect_biomes": { "tag": "#forge:is_coniferous" },
+    "features" : [
+        "bottom_flare",
+        "conifer_topper",
+        "podzol",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 10
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 15,
+                "level_limit": 8
+            }
+        }
+    ],
+    "model_overrides": {
+        "sapling": "dynamictrees:block/smartmodel/dense_sapling"
+    }
+}
