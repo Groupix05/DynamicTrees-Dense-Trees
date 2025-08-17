@@ -27,7 +27,7 @@ public class RegistryEventHandlers {
         Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 
         if (event.getType() == VillagerProfession.FARMER) {
-            trades.get(4).add((entity, random) -> new MerchantOffer(
+            trades.get(3).add((entity, random) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 2),
                     new ItemStack(ItemRegistry.LARGE_APPLE.get(), 4),
                     12, 5, 0.05F));
