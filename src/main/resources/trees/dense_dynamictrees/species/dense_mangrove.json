@@ -4,7 +4,6 @@
     "leaves_properties": "dense_dynamictrees:dense_mangrove",
     "acceptable_soils": ["dirt_like", "mud_like", "water_like"],
     "roots_growth_logic_kit": "mangrove_roots",
-    "sapling_shape": "slim_sapling",
     "always_show_on_waila": true,
     "plantable_on_fluid": true,
     "allowed_water_height_for_world_gen": 3,
@@ -17,6 +16,10 @@
     "soil_longevity": 16,
     "tapering": 0.45,
     "up_probability": 8,
+    "sapling_shape": [
+        [0.40625, -0.125, 0.40625, 0.59375, 0.625, 0.59375],
+        [0.25, 0.25, 0.25, 0.75, 0.9375, 0.75]
+    ],
     "environment_factors" : {
         "#forge:is_cold": 0.75,
         "#forge:is_dry": 0.2

@@ -17,6 +17,10 @@
     "tapering": 0.17,
     "up_probability": 10,
     "world_gen_leaf_map_height": 40,
+    "sapling_shape": [
+        [0.40625, 0, 0.40625, 0.59375, 0.3125, 0.59375],
+        [0.1875, 0.1875, 0.1875, 0.8125, 0.8125, 0.8125]
+    ],
     "environment_factors" : {
         "#forge:is_cold": 0.15,
         "#forge:is_dry": 0.2,

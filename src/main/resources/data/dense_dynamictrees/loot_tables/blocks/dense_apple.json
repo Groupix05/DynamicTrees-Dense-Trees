@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "dense_dynamictrees:apple",
+              "block": "dense_dynamictrees:dense_apple",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "age": "3"
