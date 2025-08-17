@@ -20,7 +20,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "minecraft:apple"
+          "name": "dense_dynamictrees:large_apple"
         }
       ],
       "rolls": 1.0

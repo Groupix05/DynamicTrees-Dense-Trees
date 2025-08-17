@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dense_dynamictrees:block/large_apple_flower",
+		"apple": "dense_dynamictrees:block/large_apple_flower"
+	},
+	"elements": [
+		{
+			"from": [6, 15, 8],
+			"to": [10, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15.5, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [6, 0, 10, 1], "texture": "#apple"},
+				"south": {"uv": [6, 0, 10, 1], "texture": "#apple"}
+			}
+		},
+		{
+			"from": [8, 15, 6],
+			"to": [8, 16, 10],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 15.5, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [6, 0, 10, 1], "texture": "#apple"},
+				"west": {"uv": [6, 0, 10, 1], "texture": "#apple"}
+			}
+		}
+	]
+}

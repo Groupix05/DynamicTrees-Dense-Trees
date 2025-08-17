@@ -13,8 +13,22 @@
   "block.dense_dynamictrees.dense_mangrove_branch": "Mangrove Tree",
   "block.dense_dynamictrees.dense_spruce_branch": "Spruce Tree",
   "block.dense_dynamictrees.dense_warped_branch": "Warped Fungus",
-  
   "block.dense_dynamictrees.dense_mangrove_roots": "Mangrove Tree",
+
+  "item.dense_dynamictrees.dense_acacia_seed": "Large Acacia Seed",
+  "item.dense_dynamictrees.dense_apple_oak_seed": "Large Apple Pip",
+  "item.dense_dynamictrees.dense_azalea_seed": "Large Azalea Seed",
+  "item.dense_dynamictrees.dense_birch_seed": "Large Birch Catkin",
+  "item.dense_dynamictrees.dense_cherry_seed": "Large Cherry Blossom Pit",
+  "item.dense_dynamictrees.dense_cocoa_seed": "Large Cocoa Pod",
+  "item.dense_dynamictrees.dense_crimson_seed": "Large Crimson Cap",
+  "item.dense_dynamictrees.dense_dark_oak_seed": "Large Dark Oak Acorn",
+  "item.dense_dynamictrees.dense_jungle_seed": "Large Jungle Pod",
+  "item.dense_dynamictrees.dense_mangrove_seed": "Large Mangrove Propagule",
+  "item.dense_dynamictrees.dense_oak_seed": "Large Oak Acorn",
+  "item.dense_dynamictrees.dense_spruce_seed": "Large Spruce Cone",
+  "item.dense_dynamictrees.dense_warped_seed": "Large Warped Cap",
+  "item.dense_dynamictrees.large_apple": "Large Apple",
 
   "species.dense_dynamictrees.dense_acacia": "Dense Acacia",
   "species.dense_dynamictrees.dense_apple_oak": "Dense Apple Oak",
@@ -35,19 +49,5 @@
   "species.dense_dynamictrees.dense_spruce": "Dense Spruce",
   "species.dense_dynamictrees.dense_swamp_oak": "Dense Swamp Oak",
   "species.dense_dynamictrees.dense_tall_birch": "Dense Tall Birch",
-  "species.dense_dynamictrees.dense_warped": "Dense Warped",
-
-  "item.dense_dynamictrees.dense_acacia_seed": "Large Acacia Seed",
-  "item.dense_dynamictrees.dense_apple_oak_seed": "Large Apple Pip",
-  "item.dense_dynamictrees.dense_azalea_seed": "Large Azalea Seed",
-  "item.dense_dynamictrees.dense_birch_seed": "Large Birch Catkin",
-  "item.dense_dynamictrees.dense_cocoa_seed": "Large Cocoa Pod",
-  "item.dense_dynamictrees.dense_crimson_seed": "Large Crimson Cap",
-  "item.dense_dynamictrees.dense_dark_oak_seed": "Large Dark Oak Acorn",
-  "item.dense_dynamictrees.dense_cherry_seed": "Large Cherry Blossom Pit",
-  "item.dense_dynamictrees.dense_oak_seed": "Large Oak Acorn",
-  "item.dense_dynamictrees.dense_jungle_seed": "Large Jungle Pod",
-  "item.dense_dynamictrees.dense_mangrove_seed": "Large Mangrove Propagule",
-  "item.dense_dynamictrees.dense_spruce_seed": "Large Spruce Cone",
-  "item.dense_dynamictrees.dense_warped_seed": "Large Warped Cap"
+  "species.dense_dynamictrees.dense_warped": "Dense Warped"
 }
