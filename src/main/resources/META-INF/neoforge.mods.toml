@@ -1,6 +1,6 @@
 license="MIT"
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[4,)"
 issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Dense-Trees/issues"
 
 [[mods]]
@@ -16,29 +16,29 @@ Adds Dynamic Trees compatibility for Dense Trees.
 '''
 
 [[dependencies.dense_dynamictrees]]
-    modId="forge"
+    modId="neoforge"
     mandatory=true
-    versionRange="[47.1.3,)"
+    versionRange="[21.1.201,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1]"
+    versionRange="[1.21,1.21.1)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="dynamictrees"
     mandatory=true
-    versionRange="[1.3.6,)"
+    versionRange="[1.5.0-BETA07,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="densetrees"
     mandatory=true
-    versionRange="[4.0.0,)"
+    versionRange="[8.0.0,)"
     ordering="AFTER"
     side="BOTH"
