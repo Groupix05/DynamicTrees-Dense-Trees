@@ -102,7 +102,7 @@ dependencies {
     runtimeOnly "curse.maven:cloth-config-348521:5729127" // Required by REI
     runtimeOnly "curse.maven:suggestion-provider-fix-469647:5598604"
     runtimeOnly "curse.maven:tagtooltips-899941:6418051"
-    runtimeOnly "maven.modrinth:cc-tweaked:1.116.1"
+    runtimeOnly "maven.modrinth:cc-tweaked:1.116.1-neoforge"
 
     //Other
     runtimeOnly "curse.maven:dense-trees-839316:5540809"
