@@ -98,6 +98,8 @@ dependencies {
     //DynmaicTrees Tools/Utilities
     runtimeOnly "curse.maven:jade-324717:6853386"
     runtimeOnly "curse.maven:roughly-enough-items-310111:6199140"
+    runtimeOnly "curse.maven:architectury-api-419699:5786327" // Required by REI
+    runtimeOnly "curse.maven:cloth-config-348521:5729127" // Required by REI
     runtimeOnly "curse.maven:suggestion-provider-fix-469647:5598604"
     runtimeOnly "curse.maven:tagtooltips-899941:6418051"
     runtimeOnly "maven.modrinth:cc-tweaked:1.116.1"

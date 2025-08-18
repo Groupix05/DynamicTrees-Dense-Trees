@@ -1,11 +1,11 @@
 license="MIT"
 modLoader="javafml"
-loaderVersion="[4,)"
+loaderVersion="${loader_version_range}"
 issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Dense-Trees/issues"
 
 [[mods]]
 modId="dense_dynamictrees"
-version="${file.jarVersion}"
+version="${minecraft_version}-${mod_version}"
 displayName="Dynamic Trees for Dense Trees"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-dense-trees"
 logoFile="logo.png"
@@ -17,28 +17,28 @@ Adds Dynamic Trees compatibility for Dense Trees.
 
 [[dependencies.dense_dynamictrees]]
     modId="neoforge"
-    mandatory=true
+    type="required"
     versionRange="[21.1.201,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="[1.21,1.21.1)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="dynamictrees"
-    mandatory=true
+    type="required"
     versionRange="[1.5.0-BETA07,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.dense_dynamictrees]]
     modId="densetrees"
-    mandatory=true
+    type="required"
     versionRange="[8.0.0,)"
     ordering="AFTER"
     side="BOTH"
