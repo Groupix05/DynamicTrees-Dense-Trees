@@ -12,11 +12,11 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import net.neoforged.neoforge.event.village.WandererTradesEvent;
 
-@Mod(DynamicTreesDenseTrees.MOD_ID)
+@EventBusSubscriber(modid = DynamicTreesDenseTrees.MOD_ID)
 public class RegistryEventHandlers {
     @SubscribeEvent
     public static void addCustomTrades(VillagerTradesEvent event) {
