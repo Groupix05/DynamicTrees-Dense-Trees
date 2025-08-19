@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -24,20 +24,19 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
+                        "components": {
+                          "minecraft:enchantments": {
                             "levels": {
-                              "min": 1
+                              "minecraft:silk_touch": 1
                             }
                           }
-                        ]
+                        }
                       }
                     }
                   ]
                 }
               ],
-              "name": "minecraft:oak_leaves"
+              "name": "minecraft:acacia_leaves"
             },
             {
               "type": "minecraft:item",
@@ -59,7 +58,7 @@
                   "condition": "dynamictrees:seasonal_seed_drop_chance"
                 }
               ],
-              "name": "dynamictrees:oak_seed"
+              "name": "dynamictrees:acacia_seed"
             },
             {
               "type": "dynamictrees:seed_item",
@@ -82,10 +81,10 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "conditions": [
         {
           "condition": "minecraft:inverted",
@@ -103,14 +102,13 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
+                  "components": {
+                    "minecraft:enchantments": {
                       "levels": {
-                        "min": 1
+                        "minecraft:silk_touch": 1
                       }
                     }
-                  ]
+                  }
                 }
               }
             ]
@@ -138,8 +136,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
               "function": "minecraft:set_count"
             },
@@ -150,8 +148,8 @@
           "name": "minecraft:stick"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "dense_dynamictrees:blocks/dense_oak_leaves"
+  "random_sequence": "dense_dynamictrees:blocks/dense_acacia_leaves"
 }

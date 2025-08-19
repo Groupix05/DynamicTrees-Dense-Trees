@@ -24,20 +24,19 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
+                        "components": {
+                          "minecraft:enchantments": {
                             "levels": {
-                              "min": 1
+                              "minecraft:silk_touch": 1
                             }
                           }
-                        ]
+                        }
                       }
                     }
                   ]
                 }
               ],
-              "name": "minecraft:acacia_leaves"
+              "name": "minecraft:cherry_leaves"
             },
             {
               "type": "minecraft:item",
@@ -59,7 +58,7 @@
                   "condition": "dynamictrees:seasonal_seed_drop_chance"
                 }
               ],
-              "name": "dynamictrees:acacia_seed"
+              "name": "dynamictrees:cherry_seed"
             },
             {
               "type": "dynamictrees:seed_item",
@@ -103,14 +102,13 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
+                  "components": {
+                    "minecraft:enchantments": {
                       "levels": {
-                        "min": 1
+                        "minecraft:silk_touch": 1
                       }
                     }
-                  ]
+                  }
                 }
               }
             ]
@@ -153,5 +151,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dense_dynamictrees:blocks/dense_acacia_leaves"
+  "random_sequence": "dense_dynamictrees:blocks/dense_cherry_leaves"
 }

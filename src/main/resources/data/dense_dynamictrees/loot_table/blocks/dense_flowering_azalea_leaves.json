@@ -24,20 +24,19 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
+                        "components": {
+                          "minecraft:enchantments": {
                             "levels": {
-                              "min": 1
+                              "minecraft:silk_touch": 1
                             }
                           }
-                        ]
+                        }
                       }
                     }
                   ]
                 }
               ],
-              "name": "minecraft:azalea_leaves"
+              "name": "minecraft:flowering_azalea_leaves"
             },
             {
               "type": "minecraft:item",
@@ -103,14 +102,13 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
+                  "components": {
+                    "minecraft:enchantments": {
                       "levels": {
-                        "min": 1
+                        "minecraft:silk_touch": 1
                       }
                     }
-                  ]
+                  }
                 }
               }
             ]
@@ -153,5 +151,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dense_dynamictrees:blocks/dense_azalea_leaves"
+  "random_sequence": "dense_dynamictrees:blocks/dense_flowering_azalea_leaves"
 }
