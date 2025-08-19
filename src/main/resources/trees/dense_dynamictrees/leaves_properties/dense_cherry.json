@@ -1,5 +1,4 @@
 {
-  "type": "cherry",
   "family": "dense_dynamictrees:dense_cherry",
   "primitive_leaves": "minecraft:cherry_leaves",
   "light_requirement": 14,

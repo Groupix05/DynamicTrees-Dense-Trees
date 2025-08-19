@@ -4,6 +4,8 @@
     "leaves_properties": "dense_dynamictrees:dense_jungle",
     "growth_logic_kit": "jungle",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "growth_rate": 1.0,
     "lowest_branch_height": 4,
     "max_branch_radius": 24,

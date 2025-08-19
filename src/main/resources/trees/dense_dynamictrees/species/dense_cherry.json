@@ -2,6 +2,8 @@
     "family": "dense_dynamictrees:dense_cherry",
     "leaves_properties": "dense_dynamictrees:dense_cherry",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "growth_rate": 0.8,
     "lowest_branch_height": 4,
     "max_branch_radius": 24,

@@ -2,6 +2,8 @@
     "family": "dense_dynamictrees:dense_birch",
     "leaves_properties": "dense_dynamictrees:dense_birch",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "growth_rate": 1.25,
     "lowest_branch_height": 5,
     "max_branch_radius": 24,

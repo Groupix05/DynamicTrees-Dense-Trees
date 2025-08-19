@@ -6,6 +6,8 @@
     "world_gen_acceptable_soils": ["snow_like"],
     "growth_logic_kit": "conifer",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "growth_rate": 0.9,
     "lowest_branch_height": 6,
     "max_branch_radius": 24,

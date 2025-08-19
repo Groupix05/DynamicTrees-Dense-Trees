@@ -1,10 +1,12 @@
 {
-    "type": "mangrove",
+    "type": "underground_roots",
     "family": "dense_dynamictrees:dense_mangrove",
     "leaves_properties": "dense_dynamictrees:dense_mangrove",
     "acceptable_soils": ["dirt_like", "mud_like", "water_like"],
     "roots_growth_logic_kit": "mangrove_roots",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "plantable_on_fluid": true,
     "allowed_water_height_for_world_gen": 3,
     "growth_rate": 0.6,

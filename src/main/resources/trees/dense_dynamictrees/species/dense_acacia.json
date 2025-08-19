@@ -2,6 +2,8 @@
     "family": "dense_dynamictrees:dense_acacia",
     "leaves_properties": "dense_dynamictrees:dense_acacia",
     "always_show_on_waila": true,
+    "generate_sapling": true,
+    "generate_seed": true,
     "growth_rate": 0.7,
     "lowest_branch_height": 3,
     "max_branch_radius": 24,

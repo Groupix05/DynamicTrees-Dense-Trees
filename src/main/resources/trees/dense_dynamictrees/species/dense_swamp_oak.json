@@ -1,5 +1,5 @@
 {
-    "type": "swamp_oak",
+    "type": "swamp",
     "family": "dense_dynamictrees:dense_oak",
     "leaves_properties": "dense_dynamictrees:dense_oak",
     "acceptable_soils": ["dirt_like", "water_like"],
