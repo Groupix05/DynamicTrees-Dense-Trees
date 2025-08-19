@@ -1,6 +1,6 @@
 {
   "values": [
-    { "id": "dynamictrees:dense_crimson_branch", "required": false },
-    { "id": "dynamictrees:dense_warped_branch", "required": false }
+    { "id": "dense_dynamictrees:dense_crimson_branch", "required": false },
+    { "id": "dense_dynamictrees:dense_warped_branch", "required": false }
   ]
 }
