@@ -20,7 +20,7 @@
     "_comment": "Generates an alternative oak style in swamps.",
     "select": {
       "name": "minecraft:.*",
-      "tag": "#forge:is_swamp"
+      "tag": "#c:is_swamp"
     },
     "apply": {
       "species": {
@@ -126,7 +126,7 @@
   {
     "select": {
       "name": "minecraft:.*",
-      "tag": "#forge:is_coniferous"
+      "tag": "#c:is_coniferous"
     },
     "apply": {
       "species": {
@@ -187,7 +187,7 @@
     "_comment": "1/25 chance to spawn apple trees in plains biomes.",
     "select": {
       "name": "minecraft:.*",
-      "tag": "#forge:is_plains"
+      "tag": "#c:is_plains"
     },
     "apply": {
       "species": {

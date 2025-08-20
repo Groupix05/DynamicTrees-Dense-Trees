@@ -8,7 +8,7 @@
     }
   },
   {
-    "select": { "name": "minecraft:.*", "tag": "#forge:is_lush" },
+    "select": { "name": "minecraft:.*", "tag": "#c:is_lush" },
     "cancellers": {
       "type": "rooted_tree",
       "namespace": "densetrees"

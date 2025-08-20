@@ -15,8 +15,8 @@
         [0.1875, 0.1875, 0.1875, 0.8125, 0.8125, 0.8125]
     ],
     "environment_factors" : {
-        "#forge:is_cold": 0.25,
-        "#forge:is_wet": 0.75,
+        "#c:is_cold": 0.25,
+        "#c:is_wet": 0.75,
         "#is_nether": 0.75
     },
     "perfect_biomes": { "tag": "#minecraft:is_savanna" },
